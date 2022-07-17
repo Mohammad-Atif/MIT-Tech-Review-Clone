@@ -4,14 +4,10 @@
 
 body{
     font-family: sans-serif;
+    padding-top:2px;
+    padding-left:8px;
+    padding-right:8px; 
 }
-
-.main_nav{
-   
-    padding: 2px;
-    
-}
-
 .forTitle{
     font-size:11px;
     display: inline;
@@ -30,7 +26,6 @@ body{
 .insideRight{
     display: inline;
 }
-
 
 .insideRight input[type="button"]{
     height: 50px;
@@ -54,4 +49,38 @@ body{
 
 .lower a{
     font-weight: 700;
+}
+
+.mainContainer{
+    clear: both;
+    padding-top: 60px;
+    color: #fff;
+}
+
+.coverStory{
+    background-color: black;
+    /* height: 20px; */
+    width: 48%;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.coverStory p,h2{
+    margin-bottom: 10px;
+}
+
+hr{
+    background-color: #fff;
+    width: 10%;
+    margin-bottom: 8px;
+
+.about{
+    font-size: smaller;
+    padding-bottom: 5px;
+}
+
+#img1{
+    object-fit: cover;
+    
 }
