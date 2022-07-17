@@ -1,0 +1,57 @@
+*{
+    margin:0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.main_nav{
+   
+    padding: 2px;
+    
+}
+
+.forTitle{
+    font-size:11px;
+    display: inline;
+    float: left;
+}
+
+.forRight{
+    display: inline;
+    float:right;
+}
+
+.insideLeft{
+    display: inline;
+    float: left;
+}
+.insideRight{
+    display: inline;
+}
+
+
+.insideRight input[type="button"]{
+    height: 50px;
+    margin-left: 5px;
+    background-color: rgb(236, 31, 31);
+    color: azure;
+    border:none;
+
+}
+
+.upper{
+    text-align: right;
+}
+
+.links{
+   color: black;
+   margin-right: 4px;
+   font-size: smaller;
+   text-decoration: none;
+}
+
+.lower a{
+    font-weight: 700;
+}
